@@ -54,9 +54,9 @@ public class RTCAcceptReportUtility {
 			uuidSet.add(acceptChangeSet.getItemId().getUuidValue());
 		}
 		
-		for (IChangeSetHandle discardChangeSet : acceptReport.getDiscardChangeSets()) {
+		/*for (IChangeSetHandle discardChangeSet : acceptReport.getDiscardChangeSets()) {
 			uuidSet.add(reverse(discardChangeSet.getItemId().getUuidValue()));
-		}
+		}*/
 		return uuidSet.hashCode(); 
 	}	
 }
