@@ -1,0 +1,32 @@
+<!--
+/*******************************************************************************
+ * Copyright (c) 2013 IBM Corporation and others.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ *
+ * Contributors:
+ *     IBM Corporation - initial API and implementation
+ *******************************************************************************/
+-->
+
+<!-- NLS_CHARSET=UTF-8 -->
+
+<div>
+  <p>
+   Il percorso del toolkit della build. Questa sarà una directory compresa nei tool di build RTC installati.
+   Esempio: C:\Program Files (x86)\IBM\TeamConcertBuild\buildsystem\buildtoolkit
+  </p>
+  <p>
+   Il percorso è quello del toolkit della build in quello principale. Se si dispone di una configurazione di build distribuita (secondarie), sarà inoltre necessario
+   specificare dove si trova il toolkit della build in quello secondario (supponendo che sia in un percorso differente).
+   Dopo aver salvato, andare sulla configurazione in quello secondario. Nella sezione delle proprietà del nodo,
+   aggiungere le ubicazioni degli strumenti per ogni toolkit della build da utilizzare in quello secondario.
+   Per i dettagli, consultare <a href="https://wiki.jenkins-ci.org/display/JENKINS/Team+Concert+Plugin#TeamConcertPlugin-Master%2FSlaveConfiguration"> Master/Slave Configuration</a>.
+  </p>
+  <p>
+   Se si intende caricare link simbolici, è necessario eseguire alcune configurazioni aggiuntive. L'accesso alle librerie
+   native è richiesto per creare link simbolici. Per ulteriori dettagli sulla configurazione,
+   visitare <a href="https://wiki.jenkins-ci.org/display/JENKINS/Team+Concert+Plugin"> Team Concert Plugin</a>  
+</div>
