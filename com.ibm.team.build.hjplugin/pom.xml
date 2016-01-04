@@ -19,10 +19,10 @@
 
 	<groupId>org.jenkins-ci.plugins</groupId>
 	<artifactId>teamconcert</artifactId>
-	<version>1.1.9.9-SNAPSHOT</version>
+	<version>1.1.9.9-i2Test-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 
-	<name>Team Concert Plugin</name>
+	<name>IBM i2 Team Concert Plugin</name>
 	<description>Integrates Jenkins with Rational Team Concert source control and build using the richer features of the build toolkit instead of the command line.</description>
 	<url>https://wiki.jenkins-ci.org/display/JENKINS/Team+Concert+Plugin</url>
 
